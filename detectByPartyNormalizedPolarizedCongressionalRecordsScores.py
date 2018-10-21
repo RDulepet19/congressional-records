@@ -99,14 +99,14 @@ from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from watson_developer_cloud.natural_language_understanding_v1   import Features, EntitiesOptions, KeywordsOptions, EmotionOptions, SentimentOptions
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
-  username='cfa670ce-1354-4586-ac4a-f59a63e6a74a',
-  password='arYm2jGVonIa',
+  username='XXXXXXX',
+  password='XXXXXXX',
   version='2018-03-16')
 
 tone_analyzer = ToneAnalyzerV3(
     version ='2017-09-21',
-    username='e8707e3e-6c6c-4fce-901f-dd897cddaddd',
-    password='VNrdt5mc56HB',
+    username='XXXXXX',
+    password='XXXXXX',
     url='https://gateway.watsonplatform.net/tone-analyzer/api'
 )
 content_type = 'application/json'
